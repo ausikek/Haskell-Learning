@@ -17,7 +17,6 @@ module Aula2 where
     sumPairs [(x, y)] = [x+y]
     sumPairs ((a,b):xs) = (a+b) : sumPairs xs
 
-
     -- Filtrar dígitos, só retornar numéricos
     filterDigits :: String -> String
     filterDigits "" = ""

@@ -47,7 +47,6 @@ module Aula1 where
     factorial 0 = 1
     factorial n = n * factorial(n-1)
 
-
     -- Defina uma função que compara se quatro números são iguais
     all4Equal :: Int -> Int -> Int -> Int -> Bool
     all4Equal x y z w = (x == y) && (y == z) && (z == w)
